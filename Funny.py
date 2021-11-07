@@ -27,6 +27,7 @@ tables = Center.XCenter("""
 
 def intro():
     logo = Center.XCenter(text2art("NAME", "random"))
+    # "NAME" IS THE TITLE OF THE TOOL AND "random" IS THE POLICE
     print(Colorate.Horizontal(Colors.yellow_to_red, logo, 1))
     print(" ")
     print(Colorate.Horizontal(Colors.yellow_to_red, creator, 1))
